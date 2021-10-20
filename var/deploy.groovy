@@ -1,3 +1,4 @@
+def call(Map deployparams) {
 pipeline {
     agent any
 
@@ -47,3 +48,5 @@ pipeline {
         }
     }
 }
+}
+
